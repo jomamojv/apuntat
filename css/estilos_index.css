@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body{
+	margin: 0px;
+	padding: 0px;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    background-color: #5B5B5B;
+}
+
+.container-img{
+    background-image: url("../img/20754.jpg");
+    background-blend-mode: multiply;    
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.0), rgba(0,0,0,1)),url("../img/20754.jpg");
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    padding-top: 4%;
+}
+
+h1{
+    text-align: left;
+    color: #8758FF;
+    margin: auto;
+    margin-left: 10%;
+    font-size: 6em;
+    font-family: 'Montserrat';
+    font-weight: 600!important;  
+}
+
+.container p{
+    width: 350px;
+    color: #FFFFFF;
+    margin: auto;
+    font-size: 1.4em;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-weight: 400!important;  
+}
+
+.msg{
+    width: 400px!important;
+    color: #FFFFFF;
+    margin: auto;
+    font-size: 1.4em;
+    margin-left: 10%;
+    margin-top: 1%;
+    font-weight: 400!important;  
+}
+
+.register_button{
+    background-color: #8758FF;
+    margin-left: 10%;
+    margin-top: 4%;
+    border-radius: 65px;
+    width: 135px;
+    border: none;
+    padding: 20px;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Montserrat';
+    font-weight: 200!important;  
+    cursor: pointer; 
+}
+
+nav{
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    text-align: right;
+    height: 100px;
+}
+
+.logo{
+    width: 33%;
+    margin: auto;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.login_button{
+    border: solid 3px #8758FF;
+    background-color: transparent;
+    border-radius: 65px;
+    width: 135px;
+    color: white;
+    font-size: 1em;
+    margin: auto;
+    margin-top: 2%;
+    margin-right: 5%;
+    padding: 10px;
+    font-family: 'Montserrat';
+    font-weight: 300!important;
+    cursor: pointer; 
+}
+
+.copy{
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-img{
+        background-position: 35% 0%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .container{
+        width: 100%;
+        height: 60vh;
+        margin: auto;
+        padding-top: 4%;
+    }
+    .login_button{
+        border: solid 3px #8758FF;
+        background-color: transparent;
+        border-radius: 45px;
+        width: 100px;
+        color: white;
+        font-size: 0.7em;
+        margin: auto;
+        margin-top: 2%;
+        margin-right: 5%;
+        padding: 10px;
+        font-family: 'Montserrat';
+        font-weight: 300!important;
+        cursor: pointer; 
+    }
+    .register_button{
+        background-color: #8758FF;
+        margin-left: 10%;
+        margin-top: 4%;
+        border-radius: 45px;
+        width: 100px;
+        border: none;
+        padding: 20px;
+        color: white;
+        font-size: 0.9em;
+        font-family: 'Montserrat';
+        font-weight: 200!important;  
+        cursor: pointer; 
+    }
+    h1{
+        text-align: left;
+        color: #8758FF;
+        margin: auto;
+        margin-left: 10%;
+        font-size: 5em;
+        font-family: 'Montserrat';
+        font-weight: 600!important;  
+    }
+
+    .logo{
+        width: 300px;
+        margin: auto;
+        margin-left: 10%;
+        margin-top: 1%;
+    }
+
+    .container p{
+        width: 350px;
+        color: #FFFFFF;
+        margin: auto;
+        font-size: 1.1em;
+        margin-left: 10%;
+        margin-top: 2%;
+        font-weight: 400!important;  
+    }
+  }
+
+@media only screen and (max-width: 550px) {
+    .container-img{
+        background-position: 35% 0%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .container{
+        width: 100%;
+        height: 60vh;
+        margin: auto;
+        padding-top: 4%;
+    }
+    .login_button{
+        border: solid 3px #8758FF;
+        background-color: transparent;
+        border-radius: 45px;
+        width: 100px;
+        color: white;
+        font-size: 0.7em;
+        margin: auto;
+        margin-top: 2%;
+        margin-right: 5%;
+        padding: 10px;
+        font-family: 'Montserrat';
+        font-weight: 300!important;
+        cursor: pointer; 
+    }
+    .register_button{
+        background-color: #8758FF;
+        margin-left: 10%;
+        margin-top: 4%;
+        border-radius: 45px;
+        width: 100px;
+        border: none;
+        padding: 20px;
+        color: white;
+        font-size: 0.9em;
+        font-family: 'Montserrat';
+        font-weight: 200!important;  
+        cursor: pointer; 
+    }
+    h1{
+        text-align: left;
+        color: #8758FF;
+        margin: auto;
+        margin-left: 10%;
+        font-size: 4em;
+        font-family: 'Montserrat';
+        font-weight: 600!important;  
+    }
+    .logo{
+        width: 250px;
+        margin: auto;
+        margin-left: 10%;
+        margin-top: 1%;
+    }
+    .container p{
+        width: 350px;
+        color: #FFFFFF;
+        margin: auto;
+        font-size: 1.1em;
+        margin-left: 10%;
+        margin-top: 2%;
+        font-weight: 400!important;  
+    }
+  }
+
+  @media only screen and (max-width: 380px) {
+    .container-img{
+        background-position: 35% 0%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .container{
+        width: 100%;
+        height: 60vh;
+        margin: auto;
+        padding-top: 4%;
+    }
+    .login_button{
+        border: solid 3px #8758FF;
+        background-color: transparent;
+        border-radius: 45px;
+        width: 100px;
+        color: white;
+        font-size: 0.7em;
+        margin: auto;
+        margin-top: 2%;
+        margin-right: 5%;
+        padding: 10px;
+        font-family: 'Montserrat';
+        font-weight: 300!important;
+        cursor: pointer; 
+    }
+    .register_button{
+        background-color: #8758FF;
+        margin-left: 10%;
+        margin-top: 4%;
+        border-radius: 45px;
+        width: 90px;
+        height: 45px;
+        border: none;
+        padding: 20px;
+        color: white;
+        font-size: 0.6em;
+        font-family: 'Montserrat';
+        font-weight: 4  00!important;  
+        cursor: pointer; 
+    }
+    h1{
+        text-align: left;
+        color: #8758FF;
+        margin: auto;
+        margin-left: 10%;
+        font-size: 3em;
+        font-family: 'Montserrat';
+        font-weight: 600!important;  
+    }
+
+    .container p{
+        width: 300px;
+        color: #FFFFFF;
+        margin: auto;
+        font-size: 0.9em;
+        margin-left: 10%;
+        margin-top: 2%;
+        font-weight: 400!important;  
+    }
+  }
