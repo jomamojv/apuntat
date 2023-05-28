@@ -161,7 +161,7 @@ h1{
 .d_header{
     width: 100%;
     height: 50px;
-    background-color: #8758FF;
+    background-color: #6945c2;
     border-radius: 10px 10px 0px 0px;
     text-align: center;
 }
@@ -170,7 +170,7 @@ h1{
     font-weight: 300;
     padding: 15px;
     margin: 0px;
-    color: white;
+    color: #FFFFFF;
     text-align: left;
 }
 
@@ -232,8 +232,8 @@ form{
     margin: auto;
     margin-top: 10px;
     width: 90%;
-    height: 17%;
-    background-color: #F2F2F2;
+    height: 150px;
+    background-color: #f5f5f5;
     border-radius: 5px;
     display: flex;
     color: black;
@@ -255,7 +255,7 @@ form{
 }
 
 .ttarjeta{
-    height: 100%;
+    height: 150px;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -271,13 +271,17 @@ form{
 .pttarjetas{
     font-weight: 500;
     margin: 9px;
+    margin-top: 7px;
+    margin-bottom: 3px;
     font-size: 1.1em;
 }
 
 .ptarjetas{
     font-weight: 300;
     margin: 9px;
-    margin-top: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1em;
 }
 
 .opbutton{
@@ -309,7 +313,8 @@ form{
 .itarjetas{
     margin: auto;
     width: 33%;
-    height: 80%;
+    height: 70%;
+    border-radius: 5px;
 }
 
 .t_margin{
@@ -331,8 +336,8 @@ form{
 
 .ltarjetas{
     width: 90%;
-    height: 100px;
-    background-color: #F2F2F2;
+    height: 125px;
+    background-color: #f5f5f5;
     margin: auto;
     text-align: center;
     border-radius: 5px;
@@ -344,6 +349,24 @@ form{
         margin: auto;
         width: 33%;
         height: 80%;
+}
+
+.buscador{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    text-align: center;
+}
+
+.buscador form{
+    width: 100vw;
+    height: 70px;
+    margin: auto;
+}
+
+.buscador input{
+    padding: 10px;
+    font-family: 'Montserrat';
 }
 
 form p{
@@ -369,4 +392,254 @@ footer{
 
 footer p{
     margin: auto;
+}
+
+
+@media only screen and (max-width: 1170px) {
+    .container{
+        height: 100vh;
+        margin-bottom: 50px;
+    }
+    .o_container{
+        height: 100%;
+        width: 50%;
+    }
+
+    .l_container{
+        height: 100%;
+        width: 50%;
+        margin-top: 0px;
+    }
+
+    .s_container{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        height: 115vh;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 0px;
+    }
+    .tarjetas{
+        margin: auto;
+        margin-top: 10px;
+        width: 90%;
+        height: 130px;
+        background-color: #f5f5f5;
+        border-radius: 5px;
+        display: flex;
+        color: black;
+        justify-content: left;
+        align-items: left;
+    }
+    .d_actividades{
+        height: 96vh;
+        width: 45vw;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .d_actividadesa{
+        background-color: white;
+        width: 90vw;
+        height: 80%;
+        border-radius: 10px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .pttarjetas{
+        font-weight: 500;
+        margin: 9px;
+        margin-top: 7px;
+        margin-bottom: 3px;
+        font-size: 0.8em;
+    }
+    .ptarjetas{
+        font-weight: 300;
+        margin: 7px;
+        margin-top: 4px;
+        font-size: 0.8em;
+    }
+    .buscador{
+        height: 60px;
+    }
+    
+    .buscador form{
+        height: 60px;
+    }
+    
+    .buscador input{
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width: 866px) {
+    .s_container{
+        width: 45vw;
+    }
+    .ttarjeta{
+        text-align: left;
+    }
+    .apttarjetas{
+        font-weight: 400;
+        margin: 4px;
+        font-size: 0.7em;
+    }
+    .pttarjetas{
+        font-weight: 500;
+        margin-left: 7px;
+        margin-top: 7px;
+        font-size: 0.9em;
+    }
+    
+    .ptarjetas{
+        font-weight: 400;
+        margin-left: 7px;
+        margin-top: 3px;
+        font-size: 0.7em;
+    }
+    .buscador{
+        height: 60px;
+    }
+    
+    .buscador form{
+        height: 60px;
+    }
+    
+    .buscador input{
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 205vh;
+        margin: auto;
+    }
+
+    .o_container{
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .s_container{
+        width: 100vw;
+        margin: auto;
+    }
+
+    .l_container{
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .d_actividades{
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        width: 70vw;
+    }
+    .d_actividadesa{
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        width: 70vw;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .menu{
+        text-align: center;
+        flex-direction: column;
+        height: 20vh;
+    }
+    .dlogo{
+        width: 100vw;
+    }
+    
+    .dicons{
+        margin: auto;
+        width: 100vw;
+        text-align: center;
+    }
+    .dmicons{
+        margin: auto;
+        width: 100vw;
+        text-align: center;
+    }
+    .nicons{
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .d_actividades{
+        width: 80vw;
+    }
+    .d_actividadesa{
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 372px) {
+    .dicons{
+        text-align: center;
+    }
+    .logo{
+        height: 30px;  
+        margin: auto;
+    }    
+    .s_container{
+        width: 100vw;
+        margin: auto;
+    }
+    .d_actividades{
+        width: 100vw;
+        height: 80vh;
+    }
+    .d_actividadesa{
+        width: 100vw;
+    }
+    .tarjetas{
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 1px;
+        width: 90%;
+        height: 100px;
+    }
+    .itarjetas{
+        margin: auto;
+        width: 33%;
+        height: 60%;
+        border-radius: 5px;
+    }
+    .pttarjetas{
+        font-weight: 500;
+        margin-left: 7px;
+        margin-top: 3px;
+        font-size: 0.8em;
+    }
+    
+    .ptarjetas{
+        font-weight: 400;
+        margin-left: 7px;
+        margin-top: 1px;
+        font-size: 0.6em;
+    }
+    .apttarjetas{
+        font-weight: 400;
+        margin: auto;
+        margin-top: 6px;
+        margin-bottom: 4px;
+        margin-left: 3px;
+        font-size: 0.6em;
+    }
 }

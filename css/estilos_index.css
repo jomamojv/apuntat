@@ -52,17 +52,17 @@ h1{
 }
 
 .register_button{
-    background-color: #8758FF;
+    background-color: #6945c2;
     margin-left: 10%;
     margin-top: 4%;
     border-radius: 65px;
     width: 135px;
     border: none;
     padding: 20px;
-    color: white;
+    color: #FFFFFF;
     font-size: 1.2em;
     font-family: 'Montserrat';
-    font-weight: 200!important;  
+    font-weight: 300!important;   
     cursor: pointer; 
 }
 
@@ -75,10 +75,10 @@ nav{
 }
 
 .logo{
-    width: 33%;
+    width: 13%;
     margin: auto;
     margin-left: 10%;
-    margin-top: 1%;
+    margin-top: 0px;
 }
 
 .login_button{
@@ -138,10 +138,10 @@ nav{
         width: 100px;
         border: none;
         padding: 20px;
-        color: white;
+        color: #000000;
         font-size: 0.9em;
         font-family: 'Montserrat';
-        font-weight: 200!important;  
+        font-weight: 300!important;  
         cursor: pointer; 
     }
     h1{
@@ -155,12 +155,11 @@ nav{
     }
 
     .logo{
-        width: 300px;
+        width: 170px;
         margin: auto;
         margin-left: 10%;
-        margin-top: 1%;
+        margin-top: 0px;
     }
-
     .container p{
         width: 350px;
         color: #FFFFFF;
@@ -207,7 +206,7 @@ nav{
         width: 100px;
         border: none;
         padding: 20px;
-        color: white;
+        color: #000000;
         font-size: 0.9em;
         font-family: 'Montserrat';
         font-weight: 200!important;  
@@ -222,12 +221,6 @@ nav{
         font-family: 'Montserrat';
         font-weight: 600!important;  
     }
-    .logo{
-        width: 250px;
-        margin: auto;
-        margin-left: 10%;
-        margin-top: 1%;
-    }
     .container p{
         width: 350px;
         color: #FFFFFF;
@@ -236,6 +229,9 @@ nav{
         margin-left: 10%;
         margin-top: 2%;
         font-weight: 400!important;  
+    }
+    .msg{
+        width: 300px!important;
     }
   }
 
@@ -275,10 +271,10 @@ nav{
         height: 45px;
         border: none;
         padding: 20px;
-        color: white;
+        color: #000000;
         font-size: 0.6em;
         font-family: 'Montserrat';
-        font-weight: 4  00!important;  
+        font-weight: 400!important;  
         cursor: pointer; 
     }
     h1{
@@ -290,7 +286,12 @@ nav{
         font-family: 'Montserrat';
         font-weight: 600!important;  
     }
-
+    .logo{
+        width: 150px;     
+    }
+    .msg{
+        width: 250px!important;
+    }
     .container p{
         width: 300px;
         color: #FFFFFF;

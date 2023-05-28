@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html, body{
+	margin: 0px;
+	padding: 0px;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    overflow-x: hidden;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: #8758FF;
+    height: 100vh;
+    width: 20vw;
+}
+
+.menu img{
+    margin: 20px;
+    width: 30px;
+}
+
+.menu a{
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+table{
+    text-align: center;
+}
+
+.d_tablas{
+    width: 80vw;
+    margin: 50px;
+}
+
+.d_column{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.d_column a{
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.b_admin{
+    padding: 10px;
+    margin: 50px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-family: 'Montserrat';
+}
+
+.but_admin{
+    padding: 10px;
+    margin: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-family: 'Montserrat';
+}
+
+table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+ td, th {
+    text-align: center;
+    padding: 8px;
+}
+
+td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+
+thead th {
+    color: #ffffff;
+    background: #8758FF;
+}
+
+button{
+    background-color: #8758FF;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px;
+    font-family: 'Montserrat';
+}

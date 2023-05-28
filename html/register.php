@@ -2,16 +2,18 @@
     include '../php/functions.php';
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="ca">
     <head>
-        <meta lang="es">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Apuntat</title>
         <link rel="stylesheet" type="text/css" href="../css/estilos_sesion.css">
-        <link rel="shortcut icon" type="text/css" href="../img/icon.ico">
+        <link rel="shortcut icon" type="text/css" href="../img/logo-no-background.svg">
     </head>
     <body>
+        <nav>
+            <a href="index.html"><button class="login_button">Inici</button></a>
+        </nav>
         <div class="container">
             <div class="form_estilos">
                 <form method="POST">
@@ -20,9 +22,9 @@
                     <input type="password" class="itext" placeholder="Contrasenya" id="contrasena" name="contrasena">
                     <input type="password" class="itext" placeholder="Confirmar Contrasenya" id="r_contrasena" name="r_contrasena">
                     <input type="text" class="itext" placeholder="Correu" id="correo" name="correo">
-                    <input type="submit" class="rbutton" name="registro" id="registro" placeholder="Registro" />
+                    <input type="submit" class="rbutton" name="registro" id="registro" value="Registrat" placeholder="Registro" />
                     <?php  if (!empty($_POST['registro'])){register();} ?>
-                    <p>Ja tens conta? Inicia sessió <a href="login.php"><span>aqui</span></a></p>
+                    <p>Ja tens compte? Inicia sessió <a href="login.php"><span>aqui</span></a></p>
                 </form>
             </div>
         </div>

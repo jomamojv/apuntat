@@ -99,6 +99,15 @@ footer p{
         background: linear-gradient(to bottom,rgba(0,0,0,1), rgba(173, 173, 173, 0.0));
         text-align: left;
     }
+    
+    .footer_cover_2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-color: rgba(135, 88, 255,0.5);
+        text-align: left;
+    }
+    
     .contactus{
         height: 100%;
         width: 100vw;
@@ -148,6 +157,15 @@ footer p{
         background: linear-gradient(to bottom,rgba(0,0,0,1), rgba(173, 173, 173, 0.0));
         text-align: left;
     }
+    
+    .footer_cover_2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(135, 88, 255,0.5);
+        text-align: left;
+    }
     .contactus{
         height: 100%;
         width: 100vw;
@@ -194,6 +212,14 @@ footer p{
         display: flex;
         flex-direction: column;
         background: linear-gradient(to bottom,rgba(0,0,0,1), rgba(173, 173, 173, 0.0));
+        text-align: left;
+    }
+    .footer_cover_2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(135, 88, 255,0.5);
         text-align: left;
     }
     .contactus{

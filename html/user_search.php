@@ -19,7 +19,7 @@ if (isset($_SESSION['user']) && $_SESSION['user'] != 15) {
     <body>
         <nav class="menu">
             <div class="dlogo">
-                <img class="logo" alt="Logo Apuntat" src="../img/logo.png">
+                <img class="logo" alt="Logo Apuntat" src="../img/icon.png">
             </div>
             <div class="dicons">
                 <div class="dmicons">
@@ -55,7 +55,7 @@ if (isset($_SESSION['user']) && $_SESSION['user'] != 15) {
                     <div class="d_header">
                         <h3 class="t_header">Activitats</h3>
                     </div>
-                    <?php mostrarActivitat(); ?>
+                    <?php activitatsTrobades(); ?>
                 </div>
             </div>
         </div>
